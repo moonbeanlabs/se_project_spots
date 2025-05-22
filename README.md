@@ -27,7 +27,7 @@
 
 ### 📱 Desktop to Mobile Responsive Design
 
-[![Responsive Design](https://i.postimg.cc/fRtX1NYJ/responsive.gif)](https://postimg.cc/RWmNn2sB)
+![Responsive Design](https://i.postimg.cc/Dn5gJfZd/responsive.gif)
 
 ### 🖱️ Hover Effects Examples
 
@@ -37,5 +37,5 @@
 
 ## 🌐 Live Project
 
-🔗 [View Spots on GitHub](https://moonbeanlabs.github.io/se_projects_spots/)
+🔗 [View Spots on GitHub](https://moonbeanlabs.github.io/se_project_spots/)
 
