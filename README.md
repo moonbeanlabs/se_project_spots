@@ -27,13 +27,13 @@
 
 ### 📱 Desktop to Mobile Responsive Design
 
-![Responsive Design](https://drive.google.com/file/d/1vjOz7teKDFwevew_u3dFpggpmi9yKo_L/view?usp=drive_link)
+![Responsive Design](https://i.postimg.cc/fRtX1NYJ/responsive.gif)
 
 ### 🖱️ Hover Effects Examples
 
-![New Post Button Hover](https://drive.google.com/file/d/1h01_AKDZojnCNrgvW6w3iiBQpoXWT11k/view?usp=drive_link)
+![New Post Button Hover](https://i.postimg.cc/6pyLwRx6/Animation.gif)
 
-![Like Button Hover](https://drive.google.com/file/d/1KodLoJWdl81arCs01yRTHL8c42n_sAm_/view?usp=drive_link)
+![Like Button Hover](https://i.postimg.cc/Hr08ZTcn/like-hover.gif)
 
 ## 🌐 Live Project
 
