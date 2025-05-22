@@ -27,7 +27,7 @@
 
 ### 📱 Desktop to Mobile Responsive Design
 
-![Responsive Design](https://i.postimg.cc/fRtX1NYJ/responsive.gif)
+![Responsive Design](https://postimg.cc/RWmNn2sB)
 
 ### 🖱️ Hover Effects Examples
 
