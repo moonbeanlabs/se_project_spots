@@ -21,6 +21,7 @@ align-items: center;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
+  color: #212121;
 }
 
 .card__like-button {
@@ -33,6 +34,7 @@ align-items: center;
   border: none;
   background-color: transparent;
   opacity: 40%;
+  cursor: pointer;
 }
 
 .card__like-button:hover {
