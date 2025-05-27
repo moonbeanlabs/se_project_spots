@@ -8,9 +8,9 @@
 }
 
 .card__content {
-display: flex;
-justify-content: space-between;
-align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .card__title {
@@ -42,7 +42,7 @@ align-items: center;
 }
 
 @media screen and (max-width: 627px) {
-    .card {
+  .card {
     max-width: 288px;
   }
   .card__image {

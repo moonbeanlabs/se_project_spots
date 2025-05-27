@@ -1,9 +1,9 @@
 .footer {
-margin: 0;
-padding: 60px 0;
-background-color: #fcf5e5;
-display: flex;
-align-items: center;
+  margin: 0;
+  padding: 60px 0;
+  background-color: #fcf5e5;
+  display: flex;
+  align-items: center;
 }
 .footer__copyright {
   margin: 0 auto;

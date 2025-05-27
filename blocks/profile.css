@@ -9,7 +9,6 @@
   width: 190px;
   height: 190px;
   border-radius: 8px;
-
 }
 .profile__column {
   display: flex;
@@ -31,7 +30,6 @@
 .profile__description {
   margin: 0;
   color: rgba(33, 33, 33, 0.7);
-
 }
 
 .profile__edit-button {
@@ -77,7 +75,7 @@
 }
 
 .profile__add-button:hover {
-  opacity: .8;
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 627px) {
@@ -87,7 +85,6 @@
     align-items: center;
     text-align: center;
     padding-top: 20px;
-
   }
   .profile__avatar {
     height: 80px;
