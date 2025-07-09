@@ -59,6 +59,17 @@ function getCardElement(data) {
 
   cardTitleEl.textContent = data.name;
 
+  const cardLikeButtonEl = cardElement.querySelector(".card__like-button");
+  cardLikeButtonEl.addEventListener("click", () => {
+    cardLikeButtonEl.classList.toggle("card__like-button_active");
+  });
+
+  const cardDeleteButtonEl = cardElement.querySelector(".card__delete-button");
+  cardDeleteButtonEl.addEventListener("click", () => {
+    cardElement.remove();
+    cardElement = null;
+  });
+
   return cardElement;
 }
 
