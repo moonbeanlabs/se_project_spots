@@ -1,5 +1,9 @@
 const initialCards = [
   {
+    name: "Golden Gate Bridge",
+    link: "https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/spots/7-photo-by-griffin-wooldridge-from-pexels.jpg",
+  },
+  {
     name: "Val Thorens",
     link: "https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/spots/1-photo-by-moritz-feldmann-from-pexels.jpg",
   },
@@ -44,6 +48,12 @@ const newPostCloseButton = newPostModal.querySelector(".modal__close-button");
 const cardLinkInput = newPostModal.querySelector("#card-image-input");
 const cardCaptionInput = newPostModal.querySelector("#card-caption-input");
 
+//Preview Image Const
+const previewModal = document.querySelector("#preview-modal");
+const previewModalCloseBtn = previewModal.querySelector(".modal__close-button");
+const previewImageEl = previewModal.querySelector(".modal__image");
+const previewCaptionEl = previewModal.querySelector(".modal__caption");
+
 const cardTemplate = document.querySelector("#card-template")
 .content.querySelector(".card");
 const cardsList = document.querySelector(".cards__list");
@@ -70,6 +80,14 @@ function getCardElement(data) {
     cardElement = null;
   });
 
+  cardImageEl.addEventListener("click", () => {
+    previewImageEl.src = data.link;
+    previewCaptionEl.textContent = data.name;
+
+    openModal(previewModal);
+
+  });
+
   return cardElement;
 }
 
@@ -84,19 +102,23 @@ editProfileButton.addEventListener("click", function () {
   editProfileNameInput.value = profileNameElement.textContent;
   editProfileDescInput.value = profileDescElement.textContent;
   openModal(editProfileModal);
-})
+});
 
 editProfileCloseButton.addEventListener("click", function() {
   closeModal(editProfileModal);
-})
+});
 
 newPostButton.addEventListener("click", function() {
   openModal(newPostModal);
-})
+});
 
 newPostCloseButton.addEventListener("click", function() {
   closeModal(newPostModal);
-})
+});
+
+previewModalCloseBtn.addEventListener("click", () => {
+  closeModal(previewModal);
+});
 
 function handleEditProfileSubmit(evt) {
   evt.preventDefault();
